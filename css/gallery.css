@@ -11,9 +11,6 @@
   font-weight: bold;
   color: black;
 }
-.background-colorNav-scroll {
-  background-color: #404040;
-}
 .gallery-box {
   position: relative;
   z-index: 1;
@@ -43,11 +40,12 @@
   text-transform: uppercase;
   transition: all 300ms ease-in-out;
 }
-
-.current a {
+a {
+  text-decoration: none;
+}
+.gallery-link {
   transition: all 1s;
   font-weight: bold;
-  text-decoration: none;
   color: black;
 }
 .gallery-link:hover {

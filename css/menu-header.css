@@ -11,10 +11,10 @@
   width: 100%;
   border: none;
   font-family: 'Sofia', cursive;
-  background: rgba(0, 0, 0, 0);
+  background: black;
 }
 .navbar-collapse {
-  background-color: #404040;
+  background-color: #260f01;
 }
 .navbar-inverse .navbar-brand {
   color: white;
@@ -28,13 +28,13 @@
 }
 .a {
   border-bottom: 1px solid white;
-  background-color: #404040;
+  background-color: rgba(20, 10, 1, 0.9);
   transition: 1.5s;
 }
 
 .background {
   transition: 1s;
-  background-color: #404040;
+  background-color: #260f01;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {

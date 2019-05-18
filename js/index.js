@@ -29,25 +29,25 @@ $ (document).ready (function () {
   });
 });
 
-///////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
 
-const nav = document.querySelector ('.navbar');
-window.onscroll = function () {
-  if (window.pageYOffset > 50) {
-    nav.classList.add ('a');
-  } else {
-    nav.classList.remove ('a');
-  }
-};
+// const nav = document.querySelector ('.navbar');
+// window.onscroll = function () {
+//   if (window.pageYOffset > 50) {
+//     nav.classList.add ('a');
+//   } else {
+//     nav.classList.remove ('a');
+//   }
+// };
 
-const fun = () => {
-  nav.classList.toggle ('background');
-};
+// const fun = () => {
+//   nav.classList.toggle ('background');
+// };
 
-const nav1 = document.querySelector ('.navbar-toggle');
-nav1.addEventListener ('click', fun);
+// const nav1 = document.querySelector ('.navbar-toggle');
+// nav1.addEventListener ('click', fun);
 
-////////////////////////////////////////////////GALLERY/////////////////////////////////
+//////////////////////////////////////////////GALLERY/////////////////////////////////
 
 (function ($) {
   'use strict';
@@ -91,14 +91,14 @@ nav1.addEventListener ('click', fun);
 
 $ (document).ready (function () {
   // filter
-  $ ('nav a').on ('click', function (event) {
+  $ ('.gallery-link').on ('click', function (event) {
     event.preventDefault ();
     // current class
-    $ ('nav li.current').removeClass ('current');
+    $ ('.current').removeClass ('current');
     $ (this).parent ().addClass ('current');
 
     // set new heading
-    $ ('h1.heading').text ($ (this).text ());
+    $ ('.heading').text ($ (this).text ());
 
     // filter link text
     var category = $ (this).text ().toLowerCase ().replace (' ', '-');

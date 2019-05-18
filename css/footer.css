@@ -65,6 +65,7 @@
 }
 .info-footer {
   line-height: 23px;
+  font-size: 16px;
 }
 .title-map {
   font-size: 1rem;
@@ -113,6 +114,9 @@
   .container {
     margin: 0;
     padding: 0;
+  }
+  .info-footer {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 576px) {

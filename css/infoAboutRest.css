@@ -1,5 +1,5 @@
 .about_us {
-  padding-top: 2rem;
+  padding: 6rem 0 2rem 0;
   width: 80%;
   margin: 0 auto;
 }
@@ -42,5 +42,8 @@
   }
   .flex_box_rewerce {
     flex-direction: row-reverse;
+  }
+  .text-about-us {
+    font-size: 1.2rem;
   }
 }
