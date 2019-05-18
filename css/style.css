@@ -3,6 +3,7 @@
 @import 'menu-header.css';
 @import 'gallery.css';
 @import 'infoAboutRes.css';
+@import 'contacts.css';
 @import 'media-header.css';
 @import 'media-footer.css';
 body {
@@ -15,6 +16,7 @@ body {
   text-align: center;
 }
 a {
+  cursor: pointer;
   color: white;
 }
 .progress-wrap svg path {
