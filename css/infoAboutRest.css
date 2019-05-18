@@ -1,0 +1,46 @@
+.about_us {
+  padding-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.text-about-us {
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.img_rest {
+  margin: 1rem 0;
+  margin: 0 auto;
+}
+.title-about-us {
+  color: blue;
+}
+
+.box-about-us {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .flex_box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title-about-us {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .img_rest {
+    font-size: 1.8rem;
+    width: 50%;
+  }
+  .text-about-us {
+    width: 47%;
+    margin-bottom: 0rem;
+    text-align: center;
+  }
+  .flex_box_rewerce {
+    flex-direction: row-reverse;
+  }
+}

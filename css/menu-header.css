@@ -1,0 +1,56 @@
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.navbar {
+  z-index: 100000;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: none;
+  font-family: 'Sofia', cursive;
+  background: rgba(0, 0, 0, 0);
+}
+.navbar-collapse {
+  background-color: #404040;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+  padding: 18px 18px 9px 18px;
+  font-size: 33px;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.a {
+  border-bottom: 1px solid white;
+  background-color: #404040;
+  transition: 1.5s;
+}
+
+.background {
+  transition: 1s;
+  background-color: #404040;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: white;
+}
+.navbar-brand {
+  transition: all 1s ease-out;
+}
+.navbar-brand:hover {
+  transform: scale(1.3);
+  transition: 1s;
+}
+.logo-box {
+  transition: all 0.5s ease-out;
+}
+.logo-box:hover {
+  transform: scale(1.1);
+  transition: 0.25s;
+}

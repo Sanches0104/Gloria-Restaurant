@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GLORIA</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/spin.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sofia"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#top-navbar-1"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Gloria</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="top-navbar-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="link-hover-solid menu__item">
+              <a class="menu-link fixed-link" href="index.html">Головна</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="gallery.html">Галерея</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="menu.html">Меню</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="info.html">Про нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu-link" href="contacts.html">Контакти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="gallery-box">
+        <div class="container">
+            <nav class="nav-gallery">
+                <ul class="gallery-list ">
+                    <li class="current gallery-item"><a class="gallery-link" href="#">All projects</a></li>
+                    <li class="gallery-item"><a class="gallery-link" href="#">Front-end</a></li>
+                    <li class="gallery-item"><a class="gallery-link" href="#">Back-end</a></li>
+                    <li class="gallery-item"><a class="gallery-link" href="#">Apps</a></li>
+                    <li class="gallery-item"><a class="gallery-link" href="#">Design</a></li>              
+                </ul>
+            </nav>
+            <div id="projects">
+              <p class="title-gallery">
+                <h1 class="heading">All Projects</h1>
+              </p>
+                <ul id="gallery">
+                    <li class=" gallery-box-item design"><a href="#"><img src="https://source.unsplash.com/b18TRXc8UPQ/700x700"></a></li>
+                    <li class=" gallery-box-item design"><a href="#"><img src="https://source.unsplash.com/b18TRXc8UPQ/700x700"></a></li>
+                    <li class=" gallery-box-item back-end"><a href="#"><img src="https://source.unsplash.com/b18TRXc8UPQ/700x700"></a></li>
+                    <li class=" gallery-box-item apps design"><a href="#"><img src="https://source.unsplash.com/klRB1BB9pV8/700x700"></a></li>
+                    <li class=" gallery-box-item front-end"><a href="#"><img src="https://source.unsplash.com/y1yQQmozTBw/700x700"></a></li>
+                    <li class=" gallery-box-item front-end design"><a href="#"><img src="https://source.unsplash.com/1vwwZ-BmmrE/700x700"></a></li>
+                    <li class=" gallery-box-item apps"><a href="#"><img src="https://source.unsplash.com/WLOCr03nGr0/700x700"></a></li>
+                    <li class=" gallery-box-item back-end"><a href="#"><img src="https://source.unsplash.com/iOykDIkZLQw/700x700"></a></li>
+                </ul>
+            </div>
+            <!-- modal gallery -->
+            <div class="modal-gallery">
+            <p class="gallery none">
+                <img src="">
+            </p>
+          </div>
+          </div>
+    </main>
+
+    <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <footer class="footer">
+      <div class="row map-footer">
+        <div class="location-box">
+          <div class="text-map-footer">
+            <h3 class="title-map">Нас можна знайти :</h3>
+            <p class="location-info">
+              Герцаївський р-н, с. Горбово, вул.Головна 21
+            </p>
+          </div>
+          <div class="location-logo">
+            <img class="img-location" src="svg/location-pin.svg" alt="" />
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.911565300506!2d26.178301608657055!3d48.20831929341693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47347482a1efc067%3A0x47476afa33fb17bd!2sHloriya%2C+Restoran!5e0!3m2!1sru!2sua!4v1557574916037!5m2!1sru!2sua"
+            frameborder="0"
+            style="border:0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="row info-footer-box">
+        <div class="col-md-3 boxes-footer">
+          <h2 class="logo-footer">Gloria</h2>
+        </div>
+        <div class="col-md-6 boxes-footer">
+          <ul class="info-footer">
+            <li>Банкет: +380 98 910 4695</li>
+            <li>Сауна: +380 68 077 4840</li>
+            <li>
+              Робочі години тераси: <br />
+              Пн-Нд 15:00-23:30 | Середа-вихідний
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 boxes-footer">
+          <h4 class="title-follow">Слідкуй за нами :</h4>
+          <ul class="socials md-socials">
+            <li class="socails-item">
+              <a class="facebook-social" href="#"></a>
+            </li>
+            <li class="socails-item">
+              <a class="instagram-social" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="socials">
+        <li class="socails-item">
+          <a class="facebook-social" href="#"></a>
+        </li>
+        <li class="socails-item">
+          <a class="instagram-social" href="#"></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
