@@ -13,9 +13,7 @@
   font-family: 'Sofia', cursive;
   background: black;
 }
-.navbar-collapse {
-  background-color: #260f01;
-}
+
 .navbar-inverse .navbar-brand {
   color: white;
   padding: 18px 18px 9px 18px;
@@ -34,7 +32,7 @@
 
 .background {
   transition: 1s;
-  background-color: #260f01;
+  background-color: black;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {

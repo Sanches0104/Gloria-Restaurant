@@ -39,11 +39,14 @@
     width: 47%;
     margin-bottom: 0rem;
     text-align: center;
+    font-size: 1.2rem;
   }
   .flex_box_rewerce {
     flex-direction: row-reverse;
   }
+}
+@media screen and (min-width: 1100px) {
   .text-about-us {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }

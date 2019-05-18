@@ -14,6 +14,9 @@ body {
 .boxes-footer {
   text-align: center;
 }
+a {
+  color: white;
+}
 .progress-wrap svg path {
   fill: none;
 }
