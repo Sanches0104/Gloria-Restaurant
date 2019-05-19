@@ -31,21 +31,21 @@ $ (document).ready (function () {
 
 /////////////////////////////////////////////////////////////
 
-// const nav = document.querySelector ('.navbar');
-// window.onscroll = function () {
-//   if (window.pageYOffset > 50) {
-//     nav.classList.add ('a');
-//   } else {
-//     nav.classList.remove ('a');
-//   }
-// };
+const nav = document.querySelector ('.navbar');
+window.onscroll = function () {
+  if (window.pageYOffset > 50) {
+    nav.classList.add ('a');
+  } else {
+    nav.classList.remove ('a');
+  }
+};
 
-// const fun = () => {
-//   nav.classList.toggle ('background');
-// };
+const fun = () => {
+  nav.classList.toggle ('background');
+};
 
-// const nav1 = document.querySelector ('.navbar-toggle');
-// nav1.addEventListener ('click', fun);
+const nav1 = document.querySelector ('.navbar-toggle');
+nav1.addEventListener ('click', fun);
 
 //////////////////////////////////////////////GALLERY/////////////////////////////////
 

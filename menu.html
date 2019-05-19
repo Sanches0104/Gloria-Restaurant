@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu-burger.css" />
     <link rel="stylesheet" href="css/spin.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link
@@ -38,15 +39,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Gloria</a>
+          <a
+            class="navbar-brand"
+            href="https://hyperhost.ua/info/prichinyi-po-kotoryim-kartinki-ne-otobrazhayutsya-na-sayte/"
+            >Gloria</a
+          >
         </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="top-navbar-1">
           <ul class="nav navbar-nav navbar-right">
             <li class="link-hover-solid menu__item">
-              <a class="menu-link" href="index.html">Головна</a>
+              <a class="menu-link fixed-link" href="index.html">Головна</a>
             </li>
             <li class="menu__item">
-              <a class="menu-link fixed-link" href="gallery.html">Галерея</a>
+              <a class="menu-link" href="gallery.html">Галерея</a>
             </li>
             <li class="menu__item">
               <a class="menu-link" href="menu.html">Меню</a>
@@ -62,54 +68,19 @@
       </div>
     </nav>
     <header class="header">
-        <div class="logo-box">
-          <h1 class="title">Ласкаво просимо в</h1>
-          <p class="logo">
-            <a href="index.html">Gloria</a>
-          </p>
-          <p class="title-small">
-            вул. Головна 21, с. Горбово, Герцаївський р-н <br />
-            Банкет: +380 98 910 4695 <br />
-            Робочі години тераси: <br />
-            Пн-Нд 15:00-23:30 | Середа-вихідний
-          </p>
-        </div>
-      </header>
-    <main class="gallery-box">
-        <div class="container">
-            <nav class="nav-gallery">
-                <ul class="gallery-list ">
-                    <li class="current gallery-item"><a class="gallery-link gallery-link-now" href="#">Всі фото</a></li>
-                    <li class="gallery-item"><a class="gallery-link" href="#">Басейн</a></li>
-                    <li class="gallery-item"><a class="gallery-link" href="#">Тераса</a></li>
-                    <li class="gallery-item"><a class="gallery-link" href="#">Ресторан</a></li>
-                    <li class="gallery-item"><a class="gallery-link" href="#">Інтер'єр</a></li>              
-                </ul>
-            </nav>
-            <div id="projects">
-              <p class="title-gallery">
-                <h1 class="heading">Всі фото</h1>
-              </p>
-                <ul id="gallery">
-                    <li class=" gallery-box-item design"><a href="#"><img src="https://source.unsplash.com/b18TRXc8UPQ/700x700"></a></li>
-                    <li class=" gallery-box-item design"><a href="#"><img src="https://source.unsplash.com/b18TRXc8UPQ/700x700"></a></li>
-                    <li class=" gallery-box-item back-end"><a href="#"><img src="https://source.unsplash.com/b18TRXc8UPQ/700x700"></a></li>
-                    <li class=" gallery-box-item apps design"><a href="#"><img src="https://source.unsplash.com/klRB1BB9pV8/700x700"></a></li>
-                    <li class=" gallery-box-item front-end"><a href="#"><img src="https://source.unsplash.com/y1yQQmozTBw/700x700"></a></li>
-                    <li class=" gallery-box-item front-end design"><a href="#"><img src="https://source.unsplash.com/1vwwZ-BmmrE/700x700"></a></li>
-                    <li class=" gallery-box-item apps"><a href="#"><img src="https://source.unsplash.com/WLOCr03nGr0/700x700"></a></li>
-                    <li class=" gallery-box-item back-end"><a href="#"><img src="https://source.unsplash.com/iOykDIkZLQw/700x700"></a></li>
-                </ul>
-            </div>
-            <!-- modal gallery -->
-            <div class="modal-gallery">
-            <p class="gallery none">
-                <img src="">
-            </p>
-          </div>
-          </div>
-    </main>
-
+      <div class="logo-box">
+        <h1 class="title">Ласкаво просимо в</h1>
+        <p class="logo">
+          <a href="index.html">Gloria</a>
+        </p>
+        <p class="title-small">
+          вул. Головна 21, с. Горбово, Герцаївський р-н <br />
+          Банкет: +380 98 910 4695 <br />
+          Робочі години тераси: <br />
+          Пн-Нд 15:00-23:30 | Середа-вихідний
+        </p>
+      </div>
+    </header>
     <div class="progress-wrap">
       <svg
         class="progress-circle svg-content"
@@ -120,6 +91,7 @@
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
       </svg>
     </div>
+
     <footer class="footer">
       <div class="row map-footer">
         <div class="location-box">
@@ -141,7 +113,9 @@
       </div>
       <div class="row info-footer-box">
         <div class="col-md-3 boxes-footer">
-          <h2 class="logo-footer">Gloria</h2>
+          <h2 class="logo-footer">
+            <a href="index.html">Gloria</a>
+          </h2>
         </div>
         <div class="col-md-6 boxes-footer">
           <ul class="info-footer">
@@ -154,7 +128,7 @@
           </ul>
         </div>
         <div class="col-md-3 boxes-footer">
-          <h4 class="title-follow">Слідкуй за нами :</h4>
+          <h4 class="title-follow">Слідкуй за нами</h4>
           <ul class="socials md-socials">
             <li class="socails-item">
               <a class="facebook-social" href="#"></a>
@@ -174,7 +148,6 @@
         </li>
       </ul>
     </footer>
-
     <script src="js/index.js"></script>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

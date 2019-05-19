@@ -3,6 +3,8 @@
     font-size: 18px;
   }
 }
+@media screen and (min-width: 480px) {
+}
 @media screen and (min-width: 576px) {
   .title {
     font-size: 34px;
@@ -20,12 +22,11 @@
     font-size: 20px;
   }
 }
+@media screen and (min-width: 666px) {
+}
 @media screen and (min-width: 768px) {
   .header {
-    background-image: url('../img/slider_2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url(../img/banner.jpg);
   }
   .navbar-collapse {
     background: rgba(0, 0, 0, 0);
@@ -84,5 +85,10 @@
 @media screen and (min-width: 1140px) {
   .navbar-inverse .navbar-brand {
     font-size: 38px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .header {
+    padding: 290px 0;
   }
 }

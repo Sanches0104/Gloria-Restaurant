@@ -11,7 +11,7 @@
   width: 100%;
   border: none;
   font-family: 'Sofia', cursive;
-  background: black;
+  background: rgb(0, 0, 0, 0);
 }
 
 .navbar-inverse .navbar-brand {
@@ -26,7 +26,7 @@
 }
 .a {
   border-bottom: 1px solid white;
-  background-color: rgba(20, 10, 1, 0.9);
+  background-color: black;
   transition: 1.5s;
 }
 

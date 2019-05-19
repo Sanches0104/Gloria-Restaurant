@@ -1,5 +1,5 @@
 .about_us {
-  padding: 6rem 0 2rem 0;
+  padding-bottom: 2rem;
   width: 80%;
   margin: 0 auto;
 }
@@ -13,13 +13,18 @@
   margin: 0 auto;
 }
 .title-about-us {
+  font-size: 1.4rem;
   color: blue;
 }
 
 .box-about-us {
   margin-top: 2rem;
 }
-
+.info_rest_text {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
 @media screen and (min-width: 768px) {
   .flex_box {
     align-items: center;
@@ -47,6 +52,9 @@
 }
 @media screen and (min-width: 1100px) {
   .text-about-us {
+    font-size: 1.5rem;
+  }
+  .info_rest_text {
     font-size: 1.5rem;
   }
 }
