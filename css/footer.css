@@ -11,6 +11,9 @@
 .location-info {
   margin-bottom: 1rem;
 }
+.logo-footer a {
+  color: black;
+}
 .map {
   margin-top: 1rem;
   overflow: hidden;
@@ -71,13 +74,6 @@
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-.img-location {
-  width: 40%;
-}
-.location-logo {
-  margin: 0 auto;
-  max-width: 40%;
-}
 .location-box {
   font-family: 'Dancing Script', cursive;
   justify-content: space-between;
@@ -97,14 +93,15 @@
   display: block;
 }
 .socials {
+  border-top: 2px solid black;
   padding: 1rem 0;
-  background-color: steelblue;
 }
 .md-socials {
   display: none;
 }
 .info-footer-box {
-  background-color: dimgray;
+  color: black;
+  background-color: white;
   padding: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -193,30 +190,6 @@
     display: block;
   } */
 }
-
-html,
-body {
-  background: rgb(236, 240, 241);
-}
-
-body {
-  position: relative;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 1.34em;
-  font-family: 'Open Sans', 'Segoe UI', Helvetica, Arial;
-  color: #445566;
-  background: #f7f7f7;
-}
-/* section with
- - background
- - relative position
- - z-index (5)
- - margin-bottom (equal to footer height)
-*/
-
-/* Please ❤ this if you like it! */
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
